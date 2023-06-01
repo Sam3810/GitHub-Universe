@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('./Fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('./Fonts/Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+* {
+    font-family: 'Mona Sans';
+}
+
+body {
+    background: linear-gradient(145deg, rgb(23, 23, 63),  rgb(39, 71, 71), rgb(117, 57, 70));
+    margin: 0;
+    min-height: 100dvh;
+}
+
+section {
+    max-width: 1250px;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+button {
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+input {
+    background-color: rgb(49, 49, 49);
+    border: 1px solid transparent;
+    padding: 5px;
+    box-shadow: 3px 4px 8px 0 rgb(30, 35, 44);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(172, 172, 172);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    padding: 10px 0;
+}
+
+header img {
+    max-width: 35px;
+    margin-right: 10px;
+}
+
+header a {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+header a:hover {
+    color: rgb(204, 204, 204);
+}
+
+header button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 5px;
+    font-weight: 500;
+}
+
+span {
+    font-weight: 600;
+    color: white;
+}
+
+.header-1, .header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-1 {
+    margin-right: 450px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sign-up {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.sign-up:hover {
+    background-color: white;
+    color: black;
+}
+
+.sign-in {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.sign-in:hover {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 300px;
+    text-align: center;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.description {
+    margin: auto;
+}
+
+.description p {
+    color: white;
+}
+
+.description button {
+    background-color: white;
+    padding: 7px 9px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.description button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+#hashtag {
+    display: inline;
+    font-size: 15px;
+}
+
+.tracks {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    top: -80px;
+    right: 100px;
+    height: 305px;
+}
+
+.tracks img {
+    display: inline;
+}
+
+.tracks p {
+    color: rgb(219, 219, 219);
+}
+
+h2 {
+    margin: auto;
+    color: rgb(209, 209, 209);
+}
+
