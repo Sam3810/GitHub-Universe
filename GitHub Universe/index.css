@@ -154,6 +154,7 @@ h1 {
     border: 1px solid transparent;
     margin-right: 10px;
     font-weight: 500;
+    color: black;
 }
 
 .description button:hover {
@@ -226,6 +227,6 @@ h2 {
 
 @media (max-width: 700px) {
     h1 {
-        font-size: 100px;
+        font-size: 80px;
     }
 }
