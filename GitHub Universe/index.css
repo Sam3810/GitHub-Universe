@@ -180,10 +180,6 @@ h1 {
     height: 305px;
 }
 
-.tracks img {
-    display: inline;
-}
-
 .tracks p {
     color: rgb(219, 219, 219);
 }
@@ -193,3 +189,43 @@ h2 {
     color: rgb(209, 209, 209);
 }
 
+
+@media (max-width: 1300px) {
+    h1 {
+        font-size: 150px;
+    }
+
+    header {
+        background-color: rgb(19, 19, 19);
+    }
+
+    .a {
+        display: none;
+    }
+
+    .header-1 {
+        margin-right: 20px;
+    }
+
+    .description {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tracks {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 250px;
+        right: 0;
+        height: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 100px;
+    }
+}
