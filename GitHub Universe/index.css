@@ -12,7 +12,7 @@
 }
 
 body {
-    background: linear-gradient(145deg, rgb(23, 23, 63),  rgb(39, 71, 71), rgb(117, 57, 70));
+    background: linear-gradient(140deg, rgb(23, 23, 63),  rgb(39, 71, 71), rgb(117, 39, 56));
     background-attachment: fixed;
     margin: 0;
     min-height: 100vh;
@@ -50,7 +50,7 @@ input {
 }
 
 ::-webkit-input-placeholder {
-    color: rgb(172, 172, 172);
+    color: rgb(204, 204, 204);
 }
 
 header {
@@ -62,6 +62,7 @@ header {
     right: 0;
     z-index: 999;
     background: transparent;
+    background-color: rgba(0,0,0,0.3);
     backdrop-filter: blur(5px);
     padding: 10px 0;
 }
@@ -91,6 +92,10 @@ header button {
 span {
     font-weight: 600;
     color: white;
+}
+
+main {
+    margin: 0 10px;
 }
 
 .header-1, .header-2 {
@@ -227,5 +232,13 @@ h2 {
 @media (max-width: 700px) {
     h1 {
         font-size: 80px;
+    }
+
+    .tracks {
+        margin-top: 50px;
+    }
+
+    .divTracks {
+        margin-bottom: 40px;
     }
 }
